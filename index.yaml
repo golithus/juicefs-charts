@@ -1,0 +1,71 @@
+apiVersion: v1
+entries:
+  juicefs-csi-driver:
+  - apiVersion: v2
+    appVersion: 0.30.0
+    created: "2025-10-07T09:50:23.274477721Z"
+    description: A Helm chart for JuiceFS CSI Driver
+    digest: 4975c14eadfab9a7979388955d0c050f2c1fb5f5273d2213e7469b53769d4e37
+    home: https://github.com/juicedata/juicefs-csi-driver
+    icon: https://s.juicefs.com/static/jfs/logo.svg
+    keywords:
+    - juicefs
+    - csi
+    kubeVersion: '>=1.14.0-0'
+    maintainers:
+    - email: team@juicedata.io
+      name: Juicedata Inc.
+      url: https://juicefs.com
+    name: juicefs-csi-driver
+    sources:
+    - https://github.com/juicedata/juicefs-csi-driver
+    type: application
+    urls:
+    - https://github.com/golithus/juicefs-charts/releases/download/helm-chart-juicefs-csi-driver-0.30.0/juicefs-csi-driver-0.30.0.tgz
+    version: 0.30.0
+  juicefs-operator:
+  - apiVersion: v2
+    appVersion: 0.7.2
+    created: "2025-10-07T09:50:23.518725245Z"
+    description: A Helm chart for JuiceFS Cache Group Operator
+    digest: 7ad61f586aee3799285bc2ae8033496305057fcf39f0b7029d8340d7ceba30a3
+    home: https://github.com/juicedata/juicefs-operator
+    icon: https://s.juicefs.com/static/jfs/logo.svg
+    keywords:
+    - juicefs
+    - csi
+    - cache group
+    maintainers:
+    - email: team@juicedata.io
+      name: Juicedata Inc.
+      url: https://juicefs.com
+    name: juicefs-operator
+    sources:
+    - https://github.com/juicedata/juicefs-operator
+    type: application
+    urls:
+    - https://github.com/golithus/juicefs-charts/releases/download/helm-chart-juicefs-operator-0.7.2/juicefs-operator-0.7.2.tgz
+    version: 0.7.2
+  juicefs-s3-gateway:
+  - apiVersion: v2
+    appVersion: 1.6.0
+    created: "2025-10-07T09:50:23.809655147Z"
+    description: A Helm chart for JuiceFS S3 Gateway
+    digest: 90206df891bd4f5a6a932be355d2c48e6dfb7d59e6608ff158235f3ea93972e0
+    home: https://github.com/juicedata/juicefs
+    icon: https://s.juicefs.com/static/jfs/logo.svg
+    keywords:
+    - juicefs
+    - s3 gateway
+    maintainers:
+    - email: team@juicedata.io
+      name: Juicedata Inc.
+      url: https://juicefs.com
+    name: juicefs-s3-gateway
+    sources:
+    - https://github.com/juicedata/juicefs
+    type: application
+    urls:
+    - https://github.com/golithus/juicefs-charts/releases/download/helm-chart-juicefs-s3-gateway-0.11.3/juicefs-s3-gateway-0.11.3.tgz
+    version: 0.11.3
+generated: "2025-10-07T09:50:23.809660367Z"
